@@ -23,19 +23,19 @@ export default function Hero() {
               First-year BTech student at Newton School of Technology. Passionate about building elegant solutions through code, winning hackathons, and contributing to open-source. Always learning, always building.
             </p>
 
-            <div className="flex flex-wrap gap-4 pt-4">
+            <div className="flex flex-wrap gap-4 pt-6">
               <a
                 href="#projects"
-                className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200 flex items-center gap-2 shadow-lg hover:shadow-xl"
+                className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-3 rounded-xl font-bold hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 flex items-center gap-2 border border-blue-400/30"
               >
                 View My Work
                 <ArrowRight size={20} />
               </a>
               <a
                 href="#contact"
-                className="bg-gray-200 text-gray-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-200 shadow-lg hover:shadow-xl"
+                className="bg-gray-700/50 text-white px-8 py-3 rounded-xl font-bold hover:bg-gray-600 transition-all duration-300 border border-gray-600 hover:border-gray-500"
               >
-                Get In Touch
+                Let's Talk
               </a>
             </div>
 
