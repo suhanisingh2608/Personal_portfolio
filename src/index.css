@@ -47,5 +47,42 @@ button, a {
 
 /* Selection styles */
 ::selection {
-  @apply bg-blue-500 text-white;
+  @apply bg-indigo-500 text-white;
+}
+
+/* Custom scrollbar for light theme */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f4f6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* Text improvements */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.5px;
+}
+
+/* Button and link transitions */
+button, a {
+  @apply transition-all duration-300 ease-out;
+}
+
+/* Input styling */
+input, textarea {
+  @apply transition-all duration-300;
+}
+
+input:focus, textarea:focus {
+  @apply outline-none;
 }
