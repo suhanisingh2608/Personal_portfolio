@@ -40,18 +40,18 @@ export default function Hero() {
             </div>
 
             {/* Stats */}
-            <div className="flex gap-8 pt-8 flex-wrap">
-              <div>
-                <p className="text-3xl font-bold text-white">5+</p>
-                <p className="text-gray-400">Projects Completed</p>
+            <div className="flex gap-8 pt-12 flex-wrap">
+              <div className="group">
+                <p className="text-4xl font-black text-transparent bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text">5+</p>
+                <p className="text-gray-400 font-medium text-sm uppercase tracking-wider">Projects</p>
               </div>
-              <div>
-                <p className="text-3xl font-bold text-white">3+</p>
-                <p className="text-gray-400">Years of Learning</p>
+              <div className="group">
+                <p className="text-4xl font-black text-transparent bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text">3+</p>
+                <p className="text-gray-400 font-medium text-sm uppercase tracking-wider">Years Coding</p>
               </div>
-              <div>
-                <p className="text-3xl font-bold text-white">10+</p>
-                <p className="text-gray-400">Skills Mastered</p>
+              <div className="group">
+                <p className="text-4xl font-black text-transparent bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text">1</p>
+                <p className="text-gray-400 font-medium text-sm uppercase tracking-wider">Hackathon Winner</p>
               </div>
             </div>
           </div>
