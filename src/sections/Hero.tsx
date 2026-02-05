@@ -12,15 +12,15 @@ export default function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left content */}
           <div className="space-y-6 animate-fade-in">
-            <div className="space-y-2">
-              <p className="text-blue-400 font-semibold text-lg">Welcome to my portfolio</p>
-              <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight">
-                Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Suhani Singh</span>
+            <div className="space-y-4">
+              <p className="text-blue-300 font-semibold text-base uppercase tracking-widest">Developer • Builder • Creator</p>
+              <h1 className="text-6xl md:text-7xl font-black text-white leading-tight tracking-tight">
+                I'm <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">Suhani Singh</span>
               </h1>
             </div>
 
-            <p className="text-xl text-gray-300 leading-relaxed">
-              A first-year BTech student at Newton School of Technology, Pune. Enthusiastic learner passionate about solving real-world problems through code, open-source contributions, and collaborative innovation. I thrive in hackathons and love building impactful solutions.
+            <p className="text-lg md:text-xl text-gray-200 leading-relaxed max-w-2xl">
+              First-year BTech student at Newton School of Technology. Passionate about building elegant solutions through code, winning hackathons, and contributing to open-source. Always learning, always building.
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">
