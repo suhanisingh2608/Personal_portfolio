@@ -7,11 +7,11 @@ export default function Footer() {
     { icon: Github, href: '#', label: 'GitHub' },
     { icon: Linkedin, href: '#', label: 'LinkedIn' },
     { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Mail, href: 'mailto:your.email@example.com', label: 'Email' },
+    { icon: Mail, href: 'mailto:suhani@example.com', label: 'Email' },
   ]
 
   return (
-    <footer className="bg-gray-900 text-gray-300 py-12">
+    <footer className="bg-gradient-to-b from-gray-900 to-gray-950 text-gray-300 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* About */}
