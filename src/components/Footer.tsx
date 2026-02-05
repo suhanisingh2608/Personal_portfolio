@@ -16,9 +16,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* About */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-4">Portfolio</h3>
+            <h3 className="text-white font-bold text-lg mb-4">Suhani Singh</h3>
             <p className="text-sm leading-relaxed text-gray-400">
-              A passionate first-year student exploring technology and creating amazing projects.
+              First-year BTech student at Newton School of Technology. Passionate about solving real-world problems through code, open-source contributions, and collaborative innovation.
             </p>
           </div>
 
