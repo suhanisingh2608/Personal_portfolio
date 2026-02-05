@@ -42,16 +42,16 @@ export default function Hero() {
             {/* Stats */}
             <div className="flex gap-8 pt-8 flex-wrap">
               <div>
-                <p className="text-3xl font-bold text-gray-900">5+</p>
-                <p className="text-gray-600">Projects Completed</p>
+                <p className="text-3xl font-bold text-white">5+</p>
+                <p className="text-gray-400">Projects Completed</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-gray-900">3+</p>
-                <p className="text-gray-600">Years of Learning</p>
+                <p className="text-3xl font-bold text-white">3+</p>
+                <p className="text-gray-400">Years of Learning</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-gray-900">10+</p>
-                <p className="text-gray-600">Skills Mastered</p>
+                <p className="text-3xl font-bold text-white">10+</p>
+                <p className="text-gray-400">Skills Mastered</p>
               </div>
             </div>
           </div>
