@@ -58,11 +58,11 @@ export default function Hero() {
 
           {/* Right - Image Placeholder */}
           <div className="animate-slide-up">
-            <div className="bg-gradient-to-br from-blue-400 to-purple-500 rounded-2xl shadow-2xl h-96 md:h-full flex items-center justify-center p-8">
+            <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl shadow-2xl h-96 md:h-full flex items-center justify-center p-8">
               <div className="text-center text-white space-y-4">
                 <div className="text-6xl">👨‍💻</div>
                 <p className="text-xl font-semibold">Add your photo here</p>
-                <p className="text-blue-100">Replace this with your profile image</p>
+                <p className="text-blue-200">Replace this with your profile image</p>
               </div>
             </div>
           </div>
