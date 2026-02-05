@@ -79,11 +79,11 @@ export default function Contact() {
         </div>
 
         {/* Contact Form */}
-        <div className="bg-gray-50 rounded-lg p-8 md:p-12 max-w-2xl mx-auto">
-          <h3 className="text-2xl font-bold text-gray-900 mb-8">Send Me a Message</h3>
+        <div className="bg-gray-700 rounded-lg p-8 md:p-12 max-w-2xl mx-auto">
+          <h3 className="text-2xl font-bold text-white mb-8">Send Me a Message</h3>
 
           {submitted && (
-            <div className="bg-green-50 border border-green-200 text-green-700 px-6 py-4 rounded-lg mb-6">
+            <div className="bg-green-900 border border-green-700 text-green-200 px-6 py-4 rounded-lg mb-6">
               <p className="font-semibold">Thank you for your message! I'll get back to you soon.</p>
             </div>
           )}
