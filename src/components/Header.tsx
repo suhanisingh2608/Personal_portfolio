@@ -25,12 +25,12 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex space-x-2">
             {navLinks.map((link) => (
               <a
                 key={link.label}
                 href={link.href}
-                className="text-gray-300 hover:text-blue-400 transition-colors duration-200 font-medium"
+                className="text-gray-300 hover:text-blue-300 px-4 py-2 rounded-lg font-medium transition-all duration-200 hover:bg-gray-700/50"
               >
                 {link.label}
               </a>
