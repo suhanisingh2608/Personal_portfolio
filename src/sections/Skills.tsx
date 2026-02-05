@@ -31,15 +31,15 @@ export default function Skills() {
 
         {/* Technical Skills */}
         <div className="mb-16">
-          <h3 className="text-2xl font-bold text-gray-900 mb-8">Technical Skills</h3>
+          <h3 className="text-2xl font-bold text-white mb-8">Technical Skills</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {technicalSkills.map((skillGroup) => (
-              <div key={skillGroup.category} className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300">
-                <h4 className="text-lg font-bold text-gray-900 mb-4 text-blue-600">{skillGroup.category}</h4>
+              <div key={skillGroup.category} className="bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h4 className="text-lg font-bold text-blue-400 mb-4">{skillGroup.category}</h4>
                 <ul className="space-y-2">
                   {skillGroup.skills.map((skill) => (
-                    <li key={skill} className="flex items-center gap-2 text-gray-700">
-                      <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
+                    <li key={skill} className="flex items-center gap-2 text-gray-300">
+                      <span className="w-2 h-2 bg-blue-400 rounded-full"></span>
                       {skill}
                     </li>
                   ))}
@@ -51,14 +51,14 @@ export default function Skills() {
 
         {/* Soft Skills */}
         <div>
-          <h3 className="text-2xl font-bold text-gray-900 mb-8">Soft Skills</h3>
+          <h3 className="text-2xl font-bold text-white mb-8">Soft Skills</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {softSkills.map((skill) => (
               <div
                 key={skill}
-                className="bg-white rounded-lg p-4 text-center shadow-md hover:shadow-lg hover:bg-blue-50 transition-all duration-300"
+                className="bg-gray-800 rounded-lg p-4 text-center shadow-md hover:shadow-lg hover:bg-gray-700 transition-all duration-300"
               >
-                <p className="text-gray-900 font-semibold">{skill}</p>
+                <p className="text-white font-semibold">{skill}</p>
               </div>
             ))}
           </div>
