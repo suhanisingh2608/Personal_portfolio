@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Skills() {
   const technicalSkills = [
-    { category: 'Languages', skills: ['JavaScript', 'TypeScript', 'Python', 'HTML', 'CSS'] },
-    { category: 'Frontend', skills: ['React', 'Tailwind CSS', 'Vite', 'Responsive Design'] },
-    { category: 'Backend', skills: ['Node.js', 'Express', 'Databases', 'APIs'] },
-    { category: 'Tools', skills: ['Git', 'GitHub', 'VS Code', 'Figma'] },
+    { category: 'Languages', skills: ['Python', 'JavaScript', 'C++', 'HTML', 'CSS'] },
+    { category: 'Frontend', skills: ['React', 'Tailwind CSS', 'Responsive Design', 'Modern UI'] },
+    { category: 'Backend', skills: ['Node.js', 'Databases', 'APIs', 'RESTful Services'] },
+    { category: 'Tools & Platforms', skills: ['Git', 'GitHub', 'VS Code', 'Linux'] },
   ]
 
   const softSkills = [
