@@ -15,12 +15,12 @@ export default function Hero() {
             <div className="space-y-2">
               <p className="text-blue-600 font-semibold text-lg">Welcome to my portfolio</p>
               <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
-                Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Your Name</span>
+                Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Suhani Singh</span>
               </h1>
             </div>
 
             <p className="text-xl text-gray-600 leading-relaxed">
-              A first-year student passionate about creating beautiful and functional digital experiences. I combine design thinking with technical skills to build innovative solutions.
+              A first-year BTech student at Newton School of Technology, Pune. Enthusiastic learner passionate about solving real-world problems through code, open-source contributions, and collaborative innovation. I thrive in hackathons and love building impactful solutions.
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">
