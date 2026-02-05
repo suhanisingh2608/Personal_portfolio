@@ -79,9 +79,9 @@ export default function Skills() {
                   <span className="font-semibold text-gray-200">{item.skill}</span>
                   <span className="text-blue-400 font-semibold">{item.level}%</span>
                 </div>
-                <div className="w-full bg-gray-200 rounded-full h-2">
+                <div className="w-full bg-gray-700 rounded-full h-2">
                   <div
-                    className="bg-gradient-to-r from-blue-600 to-purple-600 h-2 rounded-full transition-all duration-500"
+                    className="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full transition-all duration-500"
                     style={{ width: `${item.level}%` }}
                   ></div>
                 </div>
