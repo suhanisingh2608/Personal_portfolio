@@ -32,15 +32,15 @@ export default function Skills() {
 
         {/* Technical Skills */}
         <div className="mb-16">
-          <h3 className="text-2xl font-bold text-white mb-8">Technical Skills</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <h3 className="text-3xl font-bold text-white mb-8">Technical Skills</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {technicalSkills.map((skillGroup) => (
-              <div key={skillGroup.category} className="bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300">
-                <h4 className="text-lg font-bold text-blue-400 mb-4">{skillGroup.category}</h4>
-                <ul className="space-y-2">
+              <div key={skillGroup.category} className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-blue-400/50 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-300 group">
+                <h4 className="text-lg font-bold text-blue-300 mb-4 group-hover:text-blue-200 transition-colors">{skillGroup.category}</h4>
+                <ul className="space-y-2.5">
                   {skillGroup.skills.map((skill) => (
-                    <li key={skill} className="flex items-center gap-2 text-gray-300">
-                      <span className="w-2 h-2 bg-blue-400 rounded-full"></span>
+                    <li key={skill} className="flex items-center gap-2 text-gray-300 text-sm">
+                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
                       {skill}
                     </li>
                   ))}
