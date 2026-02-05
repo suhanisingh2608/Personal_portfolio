@@ -83,8 +83,8 @@ export default function Projects() {
 
               {/* Project Content */}
               <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
-                <p className="text-gray-300 mb-4 flex-grow">{project.description}</p>
+                <h3 className="text-lg font-bold text-white mb-2 group-hover:text-blue-300 transition-colors">{project.title}</h3>
+                <p className="text-gray-300 mb-4 flex-grow text-sm leading-relaxed">{project.description}</p>
 
                 {/* Technologies */}
                 <div className="mb-6">
@@ -92,7 +92,7 @@ export default function Projects() {
                     {project.technologies.map((tech) => (
                       <span
                         key={tech}
-                        className="inline-block bg-blue-900 text-blue-200 text-xs font-semibold px-3 py-1 rounded-full"
+                        className="inline-block bg-blue-600/20 text-blue-300 text-xs font-semibold px-3 py-1.5 rounded-lg border border-blue-500/30"
                       >
                         {tech}
                       </span>
@@ -101,20 +101,20 @@ export default function Projects() {
                 </div>
 
                 {/* Links */}
-                <div className="flex gap-4 border-t border-gray-700 pt-4">
+                <div className="flex gap-3 border-t border-gray-700/50 pt-4">
                   <a
                     href={project.github}
-                    className="flex items-center gap-2 text-gray-300 hover:text-blue-400 font-semibold transition-colors"
+                    className="flex items-center gap-2 text-gray-300 hover:text-blue-300 font-semibold text-sm transition-colors"
                   >
-                    <Github size={18} />
+                    <Github size={16} />
                     Code
                   </a>
                   <a
                     href={project.live}
-                    className="flex items-center gap-2 text-gray-300 hover:text-blue-400 font-semibold transition-colors"
+                    className="flex items-center gap-2 text-gray-300 hover:text-blue-300 font-semibold text-sm transition-colors"
                   >
-                    <ExternalLink size={18} />
-                    Live Demo
+                    <ExternalLink size={16} />
+                    Demo
                   </a>
                 </div>
               </div>
