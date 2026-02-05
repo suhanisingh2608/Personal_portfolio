@@ -63,9 +63,10 @@ export default function Projects() {
     <section id="projects" className="py-20 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Featured Projects</h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            A showcase of projects I've built demonstrating my skills and creativity.
+          <p className="text-blue-300 font-bold text-sm uppercase tracking-widest mb-2">Portfolio</p>
+          <h2 className="text-5xl md:text-6xl font-black text-white mb-6">Projects I've Built</h2>
+          <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
+            Real problems, creative solutions, and continuous learning.
           </p>
         </div>
 
