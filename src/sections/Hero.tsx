@@ -1,68 +1,74 @@
 import React from 'react'
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, Sparkles } from 'lucide-react'
 
 export default function Hero() {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
-      {/* Decorative elements */}
-      <div className="absolute top-20 right-10 w-72 h-72 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
-      <div className="absolute bottom-20 left-10 w-72 h-72 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-20">
+      {/* Decorative blobs */}
+      <div className="absolute top-10 right-20 w-96 h-96 bg-gradient-to-br from-pink-200 to-purple-200 rounded-full blur-3xl opacity-30 animate-pulse-soft"></div>
+      <div className="absolute bottom-10 left-20 w-96 h-96 bg-gradient-to-br from-blue-200 to-indigo-200 rounded-full blur-3xl opacity-30 animate-pulse-soft" style={{ animationDelay: '1s' }}></div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left content */}
           <div className="space-y-6 animate-fade-in">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-100/80 rounded-full w-fit">
+              <Sparkles size={16} className="text-indigo-600" />
+              <span className="text-sm font-semibold text-indigo-700">First-year builder 🚀</span>
+            </div>
+
             <div className="space-y-4">
-              <p className="text-blue-300 font-semibold text-base uppercase tracking-widest">Developer • Builder • Creator</p>
-              <h1 className="text-6xl md:text-7xl font-black text-white leading-tight tracking-tight">
-                I'm <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">Suhani Singh</span>
+              <h1 className="text-6xl md:text-7xl font-black leading-tight">
+                <span className="text-gray-900">Hey, I'm</span>{' '}
+                <span className="bg-gradient-to-r from-indigo-600 via-pink-500 to-purple-600 bg-clip-text text-transparent">Suhani</span>
               </h1>
             </div>
 
-            <p className="text-lg md:text-xl text-gray-200 leading-relaxed max-w-2xl">
-              First-year BTech student at Newton School of Technology. Passionate about building elegant solutions through code, winning hackathons, and contributing to open-source. Always learning, always building.
+            <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-xl">
+              I turn ideas into code, win hackathons, and contribute to open-source. Learning something new every day and building cool stuff along the way. 💻
             </p>
 
             <div className="flex flex-wrap gap-4 pt-6">
               <a
                 href="#projects"
-                className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-3 rounded-xl font-bold hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 flex items-center gap-2 border border-blue-400/30"
+                className="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-indigo-600 to-indigo-600 text-white font-bold rounded-xl hover:shadow-lg hover:shadow-indigo-500/30 transition-all duration-300 hover:scale-105"
               >
-                View My Work
+                See My Work
                 <ArrowRight size={20} />
               </a>
               <a
                 href="#contact"
-                className="bg-gray-700/50 text-white px-8 py-3 rounded-xl font-bold hover:bg-gray-600 transition-all duration-300 border border-gray-600 hover:border-gray-500"
+                className="inline-flex items-center gap-2 px-8 py-3 bg-gray-200 text-gray-900 font-bold rounded-xl hover:bg-gray-300 transition-all duration-300"
               >
-                Let's Talk
+                Let's Connect
               </a>
             </div>
 
-            {/* Stats */}
-            <div className="flex gap-8 pt-12 flex-wrap">
-              <div className="group">
-                <p className="text-4xl font-black text-transparent bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text">5+</p>
-                <p className="text-gray-400 font-medium text-sm uppercase tracking-wider">Projects</p>
+            {/* Quick stats */}
+            <div className="flex gap-8 pt-8 flex-wrap">
+              <div>
+                <p className="text-3xl font-black text-indigo-600">5+</p>
+                <p className="text-sm text-gray-600 font-medium">Projects Built</p>
               </div>
-              <div className="group">
-                <p className="text-4xl font-black text-transparent bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text">3+</p>
-                <p className="text-gray-400 font-medium text-sm uppercase tracking-wider">Years Coding</p>
+              <div>
+                <p className="text-3xl font-black text-pink-500">1</p>
+                <p className="text-sm text-gray-600 font-medium">Hackathon Winner</p>
               </div>
-              <div className="group">
-                <p className="text-4xl font-black text-transparent bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text">1</p>
-                <p className="text-gray-400 font-medium text-sm uppercase tracking-wider">Hackathon Winner</p>
+              <div>
+                <p className="text-3xl font-black text-purple-600">∞</p>
+                <p className="text-sm text-gray-600 font-medium">Always Learning</p>
               </div>
             </div>
           </div>
 
           {/* Right - Image Placeholder */}
           <div className="animate-slide-up">
-            <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl shadow-2xl h-96 md:h-full flex items-center justify-center p-8">
-              <div className="text-center text-white space-y-4">
-                <div className="text-6xl">👨‍💻</div>
-                <p className="text-xl font-semibold">Add your photo here</p>
-                <p className="text-blue-200">Replace this with your profile image</p>
+            <div className="bg-gradient-to-br from-indigo-400 via-purple-400 to-pink-400 rounded-3xl shadow-2xl h-96 md:h-full min-h-96 flex items-center justify-center p-8 relative group">
+              <div className="absolute inset-0 bg-white/10 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="relative text-center space-y-4 z-10">
+                <div className="text-7xl animate-bounce-gentle">👩‍💻</div>
+                <p className="text-white font-bold text-lg">Add your photo here</p>
+                <p className="text-white/80 text-sm">Make it uniquely you!</p>
               </div>
             </div>
           </div>
