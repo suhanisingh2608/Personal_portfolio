@@ -78,10 +78,10 @@ export default function About() {
           {highlights.map((item) => {
             const Icon = item.icon
             return (
-              <div key={item.title} className="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-xl hover:shadow-lg transition-shadow duration-300">
-                <Icon className="w-12 h-12 text-blue-600 mb-4" />
-                <h3 className="text-xl font-bold text-gray-900 mb-2">{item.title}</h3>
-                <p className="text-gray-700">{item.description}</p>
+              <div key={item.title} className="bg-gradient-to-br from-gray-700 to-gray-600 p-8 rounded-xl hover:shadow-lg transition-shadow duration-300">
+                <Icon className="w-12 h-12 text-blue-400 mb-4" />
+                <h3 className="text-xl font-bold text-white mb-2">{item.title}</h3>
+                <p className="text-gray-300">{item.description}</p>
               </div>
             )
           })}
