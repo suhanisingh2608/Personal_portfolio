@@ -52,8 +52,8 @@ export default function Contact() {
     <section id="contact" className="py-20 bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Get In Touch</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Get In Touch</h2>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             I'd love to hear from you. Whether you have a question or just want to say hello, feel free to reach out!
           </p>
         </div>
