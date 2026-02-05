@@ -59,7 +59,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-16">
           {/* Contact Info Cards */}
           {contactInfo.map((info) => {
             const Icon = info.icon
@@ -67,13 +67,13 @@ export default function Contact() {
               <a
                 key={info.label}
                 href={info.href}
-                className="bg-gradient-to-br from-gray-700 to-gray-600 rounded-lg p-8 text-center hover:shadow-lg transition-shadow duration-300"
+                className="bg-gray-700/50 rounded-2xl p-8 text-center hover:shadow-lg hover:shadow-blue-500/20 border border-gray-600/50 hover:border-blue-400/50 transition-all duration-300 group"
               >
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-500 rounded-full mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-500 rounded-full mb-4 group-hover:scale-110 transition-transform">
                   <Icon size={32} className="text-white" />
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2">{info.label}</h3>
-                <p className="text-gray-300 hover:text-blue-300 transition-colors">{info.value}</p>
+                <h3 className="text-lg font-bold text-white mb-2 group-hover:text-blue-300 transition-colors">{info.label}</h3>
+                <p className="text-gray-300 text-sm">{info.value}</p>
               </a>
             )
           })}
