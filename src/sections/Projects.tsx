@@ -73,17 +73,17 @@ export default function Projects() {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col"
+              className="bg-gray-800 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col"
             >
               {/* Project Image/Icon */}
-              <div className="bg-gradient-to-br from-blue-400 to-purple-500 h-48 flex items-center justify-center">
+              <div className="bg-gradient-to-br from-blue-500 to-purple-600 h-48 flex items-center justify-center">
                 <div className="text-7xl">{project.image}</div>
               </div>
 
               {/* Project Content */}
               <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">{project.title}</h3>
-                <p className="text-gray-600 mb-4 flex-grow">{project.description}</p>
+                <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
+                <p className="text-gray-300 mb-4 flex-grow">{project.description}</p>
 
                 {/* Technologies */}
                 <div className="mb-6">
@@ -91,7 +91,7 @@ export default function Projects() {
                     {project.technologies.map((tech) => (
                       <span
                         key={tech}
-                        className="inline-block bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full"
+                        className="inline-block bg-blue-900 text-blue-200 text-xs font-semibold px-3 py-1 rounded-full"
                       >
                         {tech}
                       </span>
@@ -100,17 +100,17 @@ export default function Projects() {
                 </div>
 
                 {/* Links */}
-                <div className="flex gap-4 border-t border-gray-200 pt-4">
+                <div className="flex gap-4 border-t border-gray-700 pt-4">
                   <a
                     href={project.github}
-                    className="flex items-center gap-2 text-gray-700 hover:text-blue-600 font-semibold transition-colors"
+                    className="flex items-center gap-2 text-gray-300 hover:text-blue-400 font-semibold transition-colors"
                   >
                     <Github size={18} />
                     Code
                   </a>
                   <a
                     href={project.live}
-                    className="flex items-center gap-2 text-gray-700 hover:text-blue-600 font-semibold transition-colors"
+                    className="flex items-center gap-2 text-gray-300 hover:text-blue-400 font-semibold transition-colors"
                   >
                     <ExternalLink size={18} />
                     Live Demo
