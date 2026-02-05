@@ -57,7 +57,7 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-gray-700 pt-8">
           <p className="text-center text-sm text-gray-400">
-            © {currentYear} Your Name. All rights reserved.
+            © {currentYear} Suhani Singh. All rights reserved.
           </p>
         </div>
       </div>
