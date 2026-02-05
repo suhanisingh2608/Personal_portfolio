@@ -20,9 +20,9 @@ export default function Education() {
   ]
 
   const certifications = [
-    { name: 'AWS Cloud Practitioner', issuer: 'Amazon Web Services', year: 2024 },
-    { name: 'React Fundamentals', issuer: 'Frontend Masters', year: 2024 },
-    { name: 'Web Development Bootcamp', issuer: 'Online Academy', year: 2023 },
+    { name: 'Smart India Hackathon Participant', issuer: 'Ministry of Education, Govt. of India', year: 2024 },
+    { name: 'Internal Hackathon Winner', issuer: 'Newton School of Technology', year: 2024 },
+    { name: 'Google Summer of Code Contributor', issuer: 'Google Open Source', year: 2024 },
   ]
 
   return (
