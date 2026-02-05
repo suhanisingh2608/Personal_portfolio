@@ -32,8 +32,8 @@ export default function About() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
           {/* Left - Image */}
-          <div className="bg-gradient-to-br from-blue-200 to-purple-200 rounded-2xl h-96 flex items-center justify-center">
-            <div className="text-center text-gray-600 space-y-4">
+          <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl h-96 flex items-center justify-center">
+            <div className="text-center text-gray-100 space-y-4">
               <div className="text-6xl">🎓</div>
               <p className="font-semibold">Your Photo</p>
             </div>
