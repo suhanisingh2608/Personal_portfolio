@@ -69,10 +69,10 @@ export default function Skills() {
           <h3 className="text-2xl font-bold text-gray-900 mb-8">Proficiency Levels</h3>
           <div className="space-y-6">
             {[
-              { skill: 'JavaScript/TypeScript', level: 85 },
-              { skill: 'React & Frontend Development', level: 80 },
-              { skill: 'Web Design & UI/UX', level: 75 },
-              { skill: 'Backend Development', level: 70 },
+              { skill: 'Python & Problem Solving', level: 80 },
+              { skill: 'JavaScript & Frontend Development', level: 75 },
+              { skill: 'Data Structures & Algorithms', level: 75 },
+              { skill: 'Web Development & APIs', level: 70 },
             ].map((item) => (
               <div key={item.skill}>
                 <div className="flex justify-between mb-2">
