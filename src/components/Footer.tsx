@@ -1,14 +1,14 @@
-import React from 'react'
-import { Github, Linkedin, Mail, Twitter } from 'lucide-react'
+import React from "react";
+import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear()
+  const currentYear = new Date().getFullYear();
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Mail, href: 'mailto:suhani@example.com', label: 'Email' },
-  ]
+    { icon: Github, href: "#", label: "GitHub" },
+    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Twitter, href: "#", label: "Twitter" },
+    { icon: Mail, href: "mailto:suhani@example.com", label: "Email" },
+  ];
 
   return (
     <footer className="bg-gradient-to-b from-gray-900 to-gray-950 text-gray-300 py-12">
@@ -18,7 +18,9 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-bold text-lg mb-4">Suhani Singh</h3>
             <p className="text-sm leading-relaxed text-gray-400">
-              First-year BTech student at Newton School of Technology. Passionate about solving real-world problems through code, open-source contributions, and collaborative innovation.
+              First-year BTech student at Newton School of Technology.
+              Passionate about solving real-world problems through code,
+              open-source contributions, and collaborative innovation.
             </p>
           </div>
 
@@ -26,10 +28,38 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-bold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#about" className="hover:text-blue-400 transition-colors">About</a></li>
-              <li><a href="#projects" className="hover:text-blue-400 transition-colors">Projects</a></li>
-              <li><a href="#skills" className="hover:text-blue-400 transition-colors">Skills</a></li>
-              <li><a href="#contact" className="hover:text-blue-400 transition-colors">Contact</a></li>
+              <li>
+                <a
+                  href="#about"
+                  className="hover:text-blue-400 transition-colors"
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#projects"
+                  className="hover:text-blue-400 transition-colors"
+                >
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#skills"
+                  className="hover:text-blue-400 transition-colors"
+                >
+                  Skills
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  className="hover:text-blue-400 transition-colors"
+                >
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -38,7 +68,7 @@ export default function Footer() {
             <h3 className="text-white font-bold text-lg mb-4">Connect</h3>
             <div className="flex space-x-4">
               {socialLinks.map((social) => {
-                const Icon = social.icon
+                const Icon = social.icon;
                 return (
                   <a
                     key={social.label}
@@ -48,7 +78,7 @@ export default function Footer() {
                   >
                     <Icon size={20} />
                   </a>
-                )
+                );
               })}
             </div>
           </div>
@@ -62,5 +92,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

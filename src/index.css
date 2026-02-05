@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: "Inter", system-ui, sans-serif;
   background-color: #f9fafb;
   color: #1f2937;
   letter-spacing: -0.3px;
@@ -41,7 +41,8 @@ body {
 }
 
 /* Smooth animations and transitions */
-button, a {
+button,
+a {
   @apply transition-all duration-300 ease-out;
 }
 
@@ -69,20 +70,28 @@ button, a {
 }
 
 /* Text improvements */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   letter-spacing: -0.5px;
 }
 
 /* Button and link transitions */
-button, a {
+button,
+a {
   @apply transition-all duration-300 ease-out;
 }
 
 /* Input styling */
-input, textarea {
+input,
+textarea {
   @apply transition-all duration-300;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   @apply outline-none;
 }

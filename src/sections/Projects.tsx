@@ -1,69 +1,75 @@
-import React from 'react'
-import { Github, ExternalLink, Zap } from 'lucide-react'
+import React from "react";
+import { Github, ExternalLink, Zap } from "lucide-react";
 
 export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'Smart India Hackathon',
-      description: 'Built a solution for a real-world problem statement in collaboration with my team.',
-      technologies: ['Full Stack', 'Innovation', 'Teamwork'],
-      image: '🏆',
-      github: '#',
-      live: '#',
-      color: 'from-yellow-300 to-orange-300',
+      title: "Smart India Hackathon",
+      description:
+        "Built a solution for a real-world problem statement in collaboration with my team.",
+      technologies: ["Full Stack", "Innovation", "Teamwork"],
+      image: "🏆",
+      github: "#",
+      live: "#",
+      color: "from-yellow-300 to-orange-300",
     },
     {
       id: 2,
-      title: 'Hackathon Winner',
-      description: 'Won the internal hackathon competition at my college. Fast thinking meets clean code.',
-      technologies: ['Speed', 'Creativity', 'Execution'],
-      image: '🥇',
-      github: '#',
-      live: '#',
-      color: 'from-amber-300 to-yellow-300',
+      title: "Hackathon Winner",
+      description:
+        "Won the internal hackathon competition at my college. Fast thinking meets clean code.",
+      technologies: ["Speed", "Creativity", "Execution"],
+      image: "🥇",
+      github: "#",
+      live: "#",
+      color: "from-amber-300 to-yellow-300",
     },
     {
       id: 3,
-      title: 'Web Development Projects',
-      description: 'Built responsive web apps with modern tech stacks. User experience is my priority.',
-      technologies: ['React', 'Tailwind', 'JavaScript'],
-      image: '💻',
-      github: '#',
-      live: '#',
-      color: 'from-blue-300 to-cyan-300',
+      title: "Web Development Projects",
+      description:
+        "Built responsive web apps with modern tech stacks. User experience is my priority.",
+      technologies: ["React", "Tailwind", "JavaScript"],
+      image: "💻",
+      github: "#",
+      live: "#",
+      color: "from-blue-300 to-cyan-300",
     },
     {
       id: 4,
-      title: 'Open Source Contributions',
-      description: 'Contributing to real-world projects through Google Summer of Code. Learning from the global community.',
-      technologies: ['Open Source', 'Collaboration', 'Git'],
-      image: '🌐',
-      github: '#',
-      live: '#',
-      color: 'from-green-300 to-emerald-300',
+      title: "Open Source Contributions",
+      description:
+        "Contributing to real-world projects through Google Summer of Code. Learning from the global community.",
+      technologies: ["Open Source", "Collaboration", "Git"],
+      image: "🌐",
+      github: "#",
+      live: "#",
+      color: "from-green-300 to-emerald-300",
     },
     {
       id: 5,
-      title: 'DSA & Algorithms',
-      description: 'Strengthening my problem-solving skills with data structures and competitive programming.',
-      technologies: ['Python', 'C++', 'Problem Solving'],
-      image: '📚',
-      github: '#',
-      live: '#',
-      color: 'from-purple-300 to-pink-300',
+      title: "DSA & Algorithms",
+      description:
+        "Strengthening my problem-solving skills with data structures and competitive programming.",
+      technologies: ["Python", "C++", "Problem Solving"],
+      image: "📚",
+      github: "#",
+      live: "#",
+      color: "from-purple-300 to-pink-300",
     },
     {
       id: 6,
-      title: 'Team Collaborations',
-      description: 'Working with amazing teammates to ship features, fix bugs, and ship fast.',
-      technologies: ['Teamwork', 'DevOps', 'Agile'],
-      image: '👥',
-      github: '#',
-      live: '#',
-      color: 'from-pink-300 to-red-300',
+      title: "Team Collaborations",
+      description:
+        "Working with amazing teammates to ship features, fix bugs, and ship fast.",
+      technologies: ["Teamwork", "DevOps", "Agile"],
+      image: "👥",
+      github: "#",
+      live: "#",
+      color: "from-pink-300 to-red-300",
     },
-  ]
+  ];
 
   return (
     <section id="projects" className="py-24 bg-white">
@@ -71,11 +77,16 @@ export default function Projects() {
         <div className="text-center mb-20">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-100/80 rounded-full mb-6">
             <Zap size={16} className="text-green-600" />
-            <span className="text-sm font-semibold text-green-700">Projects</span>
+            <span className="text-sm font-semibold text-green-700">
+              Projects
+            </span>
           </div>
-          <h2 className="text-5xl md:text-6xl font-black text-gray-900 mb-6">Things I've Built</h2>
+          <h2 className="text-5xl md:text-6xl font-black text-gray-900 mb-6">
+            Things I've Built
+          </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            From hackathon wins to open-source contributions, here's what I've been working on.
+            From hackathon wins to open-source contributions, here's what I've
+            been working on.
           </p>
         </div>
 
@@ -86,14 +97,20 @@ export default function Projects() {
               className="bg-white rounded-2xl overflow-hidden border-2 border-gray-200 hover:border-indigo-300 hover:shadow-xl hover:shadow-indigo-200/50 transition-all duration-300 flex flex-col group"
             >
               {/* Project Image/Icon */}
-              <div className={`bg-gradient-to-br ${project.color} h-32 flex items-center justify-center group-hover:scale-105 transition-transform duration-300`}>
+              <div
+                className={`bg-gradient-to-br ${project.color} h-32 flex items-center justify-center group-hover:scale-105 transition-transform duration-300`}
+              >
                 <div className="text-6xl">{project.image}</div>
               </div>
 
               {/* Project Content */}
               <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-indigo-600 transition-colors">{project.title}</h3>
-                <p className="text-gray-700 mb-4 flex-grow text-sm leading-relaxed">{project.description}</p>
+                <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-indigo-600 transition-colors">
+                  {project.title}
+                </h3>
+                <p className="text-gray-700 mb-4 flex-grow text-sm leading-relaxed">
+                  {project.description}
+                </p>
 
                 {/* Technologies */}
                 <div className="mb-6">
@@ -132,5 +149,5 @@ export default function Projects() {
         </div>
       </div>
     </section>
-  )
+  );
 }
