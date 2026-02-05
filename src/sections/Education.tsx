@@ -29,15 +29,15 @@ export default function Education() {
     <section id="education" className="py-20 bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Education & Certifications</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Education & Certifications</h2>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             My academic background and professional certifications.
           </p>
         </div>
 
         {/* Education Timeline */}
         <div className="mb-16">
-          <h3 className="text-2xl font-bold text-gray-900 mb-8">Academic Background</h3>
+          <h3 className="text-2xl font-bold text-white mb-8">Academic Background</h3>
           <div className="space-y-6">
             {education.map((edu, index) => (
               <div key={index} className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-8 border-l-4 border-blue-600 hover:shadow-lg transition-shadow duration-300">
