@@ -53,23 +53,23 @@ export default function Education() {
 
                 <div className="flex flex-wrap gap-6 text-gray-300 mb-4">
                   <div className="flex items-center gap-2">
-                    <Calendar size={18} className="text-blue-600" />
+                    <Calendar size={18} className="text-blue-300" />
                     <span>
                       {edu.startYear} {edu.endYear ? `- ${edu.endYear}` : `- Present`}
                     </span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <MapPin size={18} className="text-blue-600" />
+                    <MapPin size={18} className="text-blue-300" />
                     <span>{edu.location}</span>
                   </div>
                 </div>
 
                 <div>
-                  <p className="font-semibold text-gray-900 mb-2">Highlights:</p>
+                  <p className="font-semibold text-white mb-2">Highlights:</p>
                   <ul className="space-y-1">
                     {edu.highlights.map((highlight, idx) => (
-                      <li key={idx} className="flex items-center gap-2 text-gray-700">
-                        <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
+                      <li key={idx} className="flex items-center gap-2 text-gray-300">
+                        <span className="w-2 h-2 bg-blue-400 rounded-full"></span>
                         {highlight}
                       </li>
                     ))}
