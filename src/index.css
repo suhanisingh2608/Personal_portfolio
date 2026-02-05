@@ -38,3 +38,13 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #9ca3af;
 }
+
+/* Smooth animations and transitions */
+button, a {
+  @apply transition-all duration-300 ease-out;
+}
+
+/* Selection styles */
+::selection {
+  @apply bg-blue-500 text-white;
+}
