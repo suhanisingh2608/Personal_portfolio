@@ -23,8 +23,8 @@ export default function Skills() {
     <section id="skills" className="py-20 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Skills & Expertise</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Skills & Expertise</h2>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             A comprehensive overview of my technical and interpersonal abilities.
           </p>
         </div>
