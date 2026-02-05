@@ -19,7 +19,7 @@ export default function Hero() {
               </h1>
             </div>
 
-            <p className="text-xl text-gray-600 leading-relaxed">
+            <p className="text-xl text-gray-300 leading-relaxed">
               A first-year BTech student at Newton School of Technology, Pune. Enthusiastic learner passionate about solving real-world problems through code, open-source contributions, and collaborative innovation. I thrive in hackathons and love building impactful solutions.
             </p>
 
