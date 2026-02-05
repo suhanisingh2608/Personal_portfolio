@@ -1,88 +1,91 @@
 import React from 'react'
-import { Code2, Lightbulb, Target } from 'lucide-react'
+import { Code2, Lightbulb, Target, Heart } from 'lucide-react'
 
 export default function About() {
   const highlights = [
     {
       icon: Code2,
-      title: 'Full Stack Developer',
-      description: 'Building responsive and performant web applications with modern technologies.'
+      title: 'Passionate Builder',
+      description: 'I love turning ideas into working code and solving real problems.'
     },
     {
       icon: Lightbulb,
-      title: 'Problem Solver',
-      description: 'Creative thinker who enjoys tackling complex challenges and finding elegant solutions.'
+      title: 'Always Learning',
+      description: 'New tech, new frameworks, new challenges—I\'m in for all of it.'
     },
     {
       icon: Target,
-      title: 'Goal Oriented',
-      description: 'Dedicated to continuous learning and delivering high-quality results.'
+      title: 'Impact Driven',
+      description: 'I build to make a difference, not just for the sake of building.'
+    },
+    {
+      icon: Heart,
+      title: 'Community Minded',
+      description: 'Open-source contributions and helping others learn matter to me.'
     },
   ]
 
   return (
-    <section id="about" className="py-20 bg-gray-800">
+    <section id="about" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <p className="text-blue-300 font-bold text-sm uppercase tracking-widest mb-2">About</p>
-          <h2 className="text-5xl md:text-6xl font-black text-white mb-6">Who I Am</h2>
-          <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            First-year student, ambitious builder, and eternal learner. I transform ideas into code and love the challenge of solving real problems.
+        <div className="text-center mb-20">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-pink-100/80 rounded-full mb-6">
+            <Heart size={16} className="text-pink-600" />
+            <span className="text-sm font-semibold text-pink-700">About Me</span>
+          </div>
+          <h2 className="text-5xl md:text-6xl font-black text-gray-900 mb-6">A little bit about me</h2>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            I'm a first-year BTech student at Newton School of Technology who genuinely loves building things. I thrive in hackathons, contribute to open-source, and am constantly pushing myself to learn and grow.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
+        {/* Story section */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
           {/* Left - Image */}
-          <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl h-96 flex items-center justify-center">
-            <div className="text-center text-gray-100 space-y-4">
+          <div className="bg-gradient-to-br from-indigo-200 to-purple-200 rounded-3xl h-80 flex items-center justify-center hover:shadow-xl transition-shadow duration-300">
+            <div className="text-center space-y-4">
               <div className="text-6xl">🎓</div>
-              <p className="font-semibold">Your Photo</p>
+              <p className="font-bold text-gray-700">Your Photo</p>
             </div>
           </div>
 
           {/* Right - Content */}
           <div className="space-y-6">
-            <p className="text-lg text-gray-300 leading-relaxed">
-              I'm a first-year BTech student at Newton School of Technology, Pune, with a passion for technology and innovation. My journey has been shaped by hands-on experiences in hackathons, open-source contributions, and collaborative problem-solving. I believe in learning by doing and challenging myself with real-world problems.
-            </p>
+            <div className="space-y-4">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                My coding journey started with curiosity—what if I could build something cool? That question led me to participate in Smart India Hackathon and win my college's internal hackathon. Every line of code taught me something new.
+              </p>
 
-            <p className="text-lg text-gray-300 leading-relaxed">
-              I've had the privilege of participating in prestigious competitions like Smart India Hackathon (SIH) and winning the internal hackathon at my institution. These experiences have given me practical exposure to ideation, teamwork, and building solutions under real-world constraints. Currently, I'm actively involved in Google Summer of Code (GSoC), contributing to open-source projects and learning from the global developer community.
-            </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Today, I'm actively contributing to open-source through Google Summer of Code, strengthening my data structures and algorithms skills, and taking on projects that challenge me. I believe the best way to learn is by building real things and solving actual problems.
+              </p>
+            </div>
 
-            <div className="pt-4">
-              <h3 className="text-2xl font-bold text-white mb-6">Key Strengths</h3>
-              <ul className="space-y-3">
-                <li className="flex items-center gap-3">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full"></span>
-                  <span className="text-gray-300">Strong problem-solving and hands-on development skills</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full"></span>
-                  <span className="text-gray-300">Excellent teamwork and collaborative mindset</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full"></span>
-                  <span className="text-gray-300">Passionate about open-source contributions and hackathons</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full"></span>
-                  <span className="text-gray-300">Quick learner dedicated to continuous improvement</span>
-                </li>
-              </ul>
+            <div className="space-y-3">
+              <p className="font-bold text-gray-900">Things I love:</p>
+              <div className="grid grid-cols-2 gap-2">
+                {['Hackathons 🏆', 'Open Source 🌐', 'Clean Code 💯', 'Problem Solving 🧩', 'New Tech 🚀', 'Teaching Others 👥'].map((item) => (
+                  <div key={item} className="bg-pastel-blue rounded-lg px-4 py-2 text-sm font-medium text-indigo-700">
+                    {item}
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
 
         {/* Highlights Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {highlights.map((item) => {
             const Icon = item.icon
             return (
-              <div key={item.title} className="bg-gradient-to-br from-gray-700/50 to-gray-600/50 p-8 rounded-2xl border border-gray-600/50 hover:border-blue-400/50 hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300 group">
-                <Icon className="w-12 h-12 text-blue-400 mb-4 group-hover:scale-110 transition-transform" />
-                <h3 className="text-xl font-bold text-white mb-2">{item.title}</h3>
-                <p className="text-gray-300 text-sm leading-relaxed">{item.description}</p>
+              <div
+                key={item.title}
+                className="bg-gradient-to-br from-gray-50 to-pastel-blue rounded-2xl p-6 hover:shadow-lg hover:shadow-indigo-200/50 transition-all duration-300 group border border-gray-200"
+              >
+                <Icon className="w-10 h-10 text-indigo-600 mb-4 group-hover:scale-110 transition-transform" />
+                <h3 className="text-lg font-bold text-gray-900 mb-2">{item.title}</h3>
+                <p className="text-gray-700 text-sm leading-relaxed">{item.description}</p>
               </div>
             )
           })}
