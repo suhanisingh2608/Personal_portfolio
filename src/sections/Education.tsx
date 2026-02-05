@@ -29,9 +29,10 @@ export default function Education() {
     <section id="education" className="py-20 bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Education & Certifications</h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            My academic background and professional certifications.
+          <p className="text-blue-300 font-bold text-sm uppercase tracking-widest mb-2">Background</p>
+          <h2 className="text-5xl md:text-6xl font-black text-white mb-6">Education & Awards</h2>
+          <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
+            My academic journey and achievements so far.
           </p>
         </div>
 
