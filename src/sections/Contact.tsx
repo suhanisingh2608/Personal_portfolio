@@ -66,13 +66,13 @@ export default function Contact() {
               <a
                 key={info.label}
                 href={info.href}
-                className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg p-8 text-center hover:shadow-lg transition-shadow duration-300"
+                className="bg-gradient-to-br from-gray-700 to-gray-600 rounded-lg p-8 text-center hover:shadow-lg transition-shadow duration-300"
               >
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 rounded-full mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-500 rounded-full mb-4">
                   <Icon size={32} className="text-white" />
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2">{info.label}</h3>
-                <p className="text-gray-600 hover:text-blue-600 transition-colors">{info.value}</p>
+                <h3 className="text-lg font-bold text-white mb-2">{info.label}</h3>
+                <p className="text-gray-300 hover:text-blue-300 transition-colors">{info.value}</p>
               </a>
             )
           })}
