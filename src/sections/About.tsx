@@ -42,11 +42,11 @@ export default function About() {
           {/* Right - Content */}
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              I'm a first-year student with a passion for technology and innovation. My journey began when I discovered the power of code to create meaningful digital experiences. Since then, I've been on a mission to learn, grow, and contribute to the tech community.
+              I'm a first-year BTech student at Newton School of Technology, Pune, with a passion for technology and innovation. My journey has been shaped by hands-on experiences in hackathons, open-source contributions, and collaborative problem-solving. I believe in learning by doing and challenging myself with real-world problems.
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed">
-              When I'm not coding or studying, you can find me exploring new technologies, collaborating with peers, or working on personal projects that challenge my skills. I believe in the power of continuous learning and staying updated with industry trends.
+              I've had the privilege of participating in prestigious competitions like Smart India Hackathon (SIH) and winning the internal hackathon at my institution. These experiences have given me practical exposure to ideation, teamwork, and building solutions under real-world constraints. Currently, I'm actively involved in Google Summer of Code (GSoC), contributing to open-source projects and learning from the global developer community.
             </p>
 
             <div className="pt-4">
@@ -54,19 +54,19 @@ export default function About() {
               <ul className="space-y-3">
                 <li className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
-                  <span className="text-gray-700">Quick learner with strong problem-solving abilities</span>
+                  <span className="text-gray-700">Strong problem-solving and hands-on development skills</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
-                  <span className="text-gray-700">Strong communication and teamwork skills</span>
+                  <span className="text-gray-700">Excellent teamwork and collaborative mindset</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
-                  <span className="text-gray-700">Attention to detail and dedication to quality</span>
+                  <span className="text-gray-700">Passionate about open-source contributions and hackathons</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
-                  <span className="text-gray-700">Passion for staying current with technology trends</span>
+                  <span className="text-gray-700">Quick learner dedicated to continuous improvement</span>
                 </li>
               </ul>
             </div>
