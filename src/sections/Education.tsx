@@ -4,28 +4,17 @@ import { Calendar, MapPin, Award } from 'lucide-react'
 export default function Education() {
   const education = [
     {
-      degree: 'Bachelor of Science in Computer Science',
-      institution: 'University Name',
-      startYear: 2023,
+      degree: 'Bachelor of Technology in Computer Science & Engineering',
+      institution: 'Newton School of Technology',
+      startYear: 2024,
       currentYear: true,
-      location: 'City, State',
-      gpa: '3.8/4.0',
+      location: 'Pune, Maharashtra',
+      gpa: '8.2/10',
       highlights: [
         'Currently in first year',
-        'Strong focus on web development and software engineering',
-        'Active in tech clubs and hackathons',
-      ],
-    },
-    {
-      degree: 'High School Diploma',
-      institution: 'High School Name',
-      startYear: 2019,
-      endYear: 2023,
-      location: 'City, State',
-      gpa: '3.9/4.0',
-      highlights: [
-        'Advanced Placement (AP) courses in Computer Science and Mathematics',
-        'Coding competition awards and recognition',
+        'Active participant in Smart India Hackathon (SIH)',
+        'Winner of internal hackathon competition',
+        'Active contributor to open-source and GSoC projects',
       ],
     },
   ]
