@@ -65,8 +65,8 @@ export default function Skills() {
         </div>
 
         {/* Proficiency Levels */}
-        <div className="mt-16 bg-white rounded-lg p-8 shadow-md">
-          <h3 className="text-2xl font-bold text-gray-900 mb-8">Proficiency Levels</h3>
+        <div className="mt-16 bg-gray-800 rounded-lg p-8 shadow-md">
+          <h3 className="text-2xl font-bold text-white mb-8">Proficiency Levels</h3>
           <div className="space-y-6">
             {[
               { skill: 'Python & Problem Solving', level: 80 },
@@ -76,8 +76,8 @@ export default function Skills() {
             ].map((item) => (
               <div key={item.skill}>
                 <div className="flex justify-between mb-2">
-                  <span className="font-semibold text-gray-900">{item.skill}</span>
-                  <span className="text-blue-600 font-semibold">{item.level}%</span>
+                  <span className="font-semibold text-gray-200">{item.skill}</span>
+                  <span className="text-blue-400 font-semibold">{item.level}%</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2">
                   <div
