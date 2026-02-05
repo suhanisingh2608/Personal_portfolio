@@ -30,7 +30,7 @@ export default function Header() {
               <a
                 key={link.label}
                 href={link.href}
-                className="text-gray-600 hover:text-blue-600 transition-colors duration-200 font-medium"
+                className="text-gray-300 hover:text-blue-400 transition-colors duration-200 font-medium"
               >
                 {link.label}
               </a>
@@ -40,7 +40,7 @@ export default function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 rounded-md text-gray-600 hover:bg-gray-100"
+            className="md:hidden p-2 rounded-md text-gray-300 hover:bg-gray-700"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
