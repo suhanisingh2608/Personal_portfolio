@@ -52,9 +52,10 @@ export default function Contact() {
     <section id="contact" className="py-20 bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Get In Touch</h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            I'd love to hear from you. Whether you have a question or just want to say hello, feel free to reach out!
+          <p className="text-blue-300 font-bold text-sm uppercase tracking-widest mb-2">Contact</p>
+          <h2 className="text-5xl md:text-6xl font-black text-white mb-6">Let's Build Together</h2>
+          <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
+            Got a project in mind? Want to collaborate? Just want to chat? I'm always interested in connecting with fellow builders.
           </p>
         </div>
 
