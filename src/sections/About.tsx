@@ -75,14 +75,14 @@ export default function About() {
         </div>
 
         {/* Highlights Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {highlights.map((item) => {
             const Icon = item.icon
             return (
-              <div key={item.title} className="bg-gradient-to-br from-gray-700 to-gray-600 p-8 rounded-xl hover:shadow-lg transition-shadow duration-300">
-                <Icon className="w-12 h-12 text-blue-400 mb-4" />
+              <div key={item.title} className="bg-gradient-to-br from-gray-700/50 to-gray-600/50 p-8 rounded-2xl border border-gray-600/50 hover:border-blue-400/50 hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300 group">
+                <Icon className="w-12 h-12 text-blue-400 mb-4 group-hover:scale-110 transition-transform" />
                 <h3 className="text-xl font-bold text-white mb-2">{item.title}</h3>
-                <p className="text-gray-300">{item.description}</p>
+                <p className="text-gray-300 text-sm leading-relaxed">{item.description}</p>
               </div>
             )
           })}
