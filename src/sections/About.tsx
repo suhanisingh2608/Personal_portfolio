@@ -45,28 +45,28 @@ export default function About() {
               I'm a first-year BTech student at Newton School of Technology, Pune, with a passion for technology and innovation. My journey has been shaped by hands-on experiences in hackathons, open-source contributions, and collaborative problem-solving. I believe in learning by doing and challenging myself with real-world problems.
             </p>
 
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-lg text-gray-300 leading-relaxed">
               I've had the privilege of participating in prestigious competitions like Smart India Hackathon (SIH) and winning the internal hackathon at my institution. These experiences have given me practical exposure to ideation, teamwork, and building solutions under real-world constraints. Currently, I'm actively involved in Google Summer of Code (GSoC), contributing to open-source projects and learning from the global developer community.
             </p>
 
             <div className="pt-4">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Key Strengths</h3>
+              <h3 className="text-2xl font-bold text-white mb-6">Key Strengths</h3>
               <ul className="space-y-3">
                 <li className="flex items-center gap-3">
-                  <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
-                  <span className="text-gray-700">Strong problem-solving and hands-on development skills</span>
+                  <span className="w-2 h-2 bg-blue-400 rounded-full"></span>
+                  <span className="text-gray-300">Strong problem-solving and hands-on development skills</span>
                 </li>
                 <li className="flex items-center gap-3">
-                  <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
-                  <span className="text-gray-700">Excellent teamwork and collaborative mindset</span>
+                  <span className="w-2 h-2 bg-blue-400 rounded-full"></span>
+                  <span className="text-gray-300">Excellent teamwork and collaborative mindset</span>
                 </li>
                 <li className="flex items-center gap-3">
-                  <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
-                  <span className="text-gray-700">Passionate about open-source contributions and hackathons</span>
+                  <span className="w-2 h-2 bg-blue-400 rounded-full"></span>
+                  <span className="text-gray-300">Passionate about open-source contributions and hackathons</span>
                 </li>
                 <li className="flex items-center gap-3">
-                  <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
-                  <span className="text-gray-700">Quick learner dedicated to continuous improvement</span>
+                  <span className="w-2 h-2 bg-blue-400 rounded-full"></span>
+                  <span className="text-gray-300">Quick learner dedicated to continuous improvement</span>
                 </li>
               </ul>
             </div>
