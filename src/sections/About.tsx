@@ -41,7 +41,7 @@ export default function About() {
 
           {/* Right - Content */}
           <div className="space-y-6">
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-lg text-gray-300 leading-relaxed">
               I'm a first-year BTech student at Newton School of Technology, Pune, with a passion for technology and innovation. My journey has been shaped by hands-on experiences in hackathons, open-source contributions, and collaborative problem-solving. I believe in learning by doing and challenging myself with real-world problems.
             </p>
 
